@@ -1,0 +1,18 @@
+.cssStuff .Container .Button-Red-Inverted {
+    color: #d00000;
+    background-color: transparent;
+    border: 3px solid #d00000;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+.cssStuff .Container .Button-Red-Inverted:hover {
+    background-color: #d00000;
+    border: 3px solid #d00000;
+    color: white;
+}
+
+.cssStuff .Container .Button-Red-Inverted:active {
+    background: #910000;
+    border: 3px solid #910000;
+    color: white;
+}

@@ -1,0 +1,16 @@
+.cssStuff .Container .Button-Red {
+    background-color: #d00000;
+    color: white;
+    border: 3px solid #d00000;
+    transition: background-color 0.15s, border 0.15s;
+}
+
+.cssStuff .Container .Button-Red:hover {
+    background-color: #bb1919;
+    border: 3px solid #bb1919;
+}
+
+.cssStuff .Container .Button-Red:active {
+    background-color: #910000;
+    border: 3px solid #910000;
+}

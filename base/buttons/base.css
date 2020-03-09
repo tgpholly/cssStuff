@@ -1,0 +1,13 @@
+.cssStuff .Container .Button {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6 16;
+    border-radius: 4.20px;
+    transition: background-color 0.15s, border 0.15s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.cssStuff .Container .Button:focus {
+    outline: none;
+}

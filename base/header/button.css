@@ -1,0 +1,20 @@
+.cssStuff .Header .Button {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.cssStuff .Header .Button:hover {
+    background: rgb(58, 58, 58);
+}
+
+.cssStuff .Header .Selected {
+    background: rgb(48, 48, 48);
+}
+
+.cssStuff .Header .Selected:hover {
+    background: rgb(48, 48, 48);
+}

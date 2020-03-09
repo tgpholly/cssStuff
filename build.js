@@ -13,6 +13,7 @@ fs.readdir(__dirname + "/base/", (err, files) =>
         } else
         {
             console.log(`Found css file "${files[i]}"`);
+            textToMinify += fs.readFileSync(__dirname + "/base/" + files[i]).toString() + "\n";
         }
     }
     for (let i = 0; i < fileArray.length; i++)

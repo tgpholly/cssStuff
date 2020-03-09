@@ -1,0 +1,15 @@
+.cssStuff .Container .Button-LightBlue {
+    background-color: #257de2;
+    color: white;
+    border: 3px solid #257de2;
+}
+
+.cssStuff .Container .Button-LightBlue:hover {
+    background-color: #1e62b1;
+    border: 3px solid #1e62b1;
+}
+
+.cssStuff .Container .Button-LightBlue:active {
+    background: #134986;
+    border: 3px solid #134986;
+}

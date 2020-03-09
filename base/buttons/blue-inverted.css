@@ -1,0 +1,18 @@
+.cssStuff .Container .Button-Blue-Inverted {
+    color: #2f2fdb;
+    background-color: transparent;
+    border: 3px solid #2f2fdb;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+.cssStuff .Container .Button-Blue-Inverted:hover {
+    background-color: #2f2fdb;
+    border: 3px solid #2f2fdb;
+    color: white;
+}
+
+.cssStuff .Container .Button-Blue-Inverted:active {
+    background: #0f0f80;
+    border: 3px solid #0f0f80;
+    color: white;
+}

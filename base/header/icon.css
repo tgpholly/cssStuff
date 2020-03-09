@@ -1,0 +1,14 @@
+.cssStuff .Header .Icon {
+    position: relative;
+    float: left;
+    width: 55px;
+    height: 45px;
+}
+
+.cssStuff .Header .Icon img {
+    height: 38px;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}

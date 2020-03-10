@@ -1,0 +1,19 @@
+.cssStuff .Container .Button3D-Black {
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 0 5px rgb(24, 24, 24);
+}
+
+.cssStuff .Container .Button3D-Black:hover {
+    background-color: rgb(48, 48, 48);
+    border: 3px solid rgb(48, 48, 48);
+    box-shadow: 0 5px rgb(68, 68, 68);
+}
+
+.cssStuff .Container .Button3D-Black:active {
+    background: rgb(73, 73, 73);
+    border: 3px solid rgb(73, 73, 73);
+    box-shadow: 0 1px rgb(100, 100, 100);
+    transform: translateY(4px);
+}

@@ -1,0 +1,17 @@
+.cssStuff .Container .Button-Black-Inverted {
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+.cssStuff .Container .Button-Black-Inverted:hover {
+    background-color: black;
+    border: 3px solid black;
+    color: white;
+}
+
+.cssStuff .Container .Button-Black-Inverted:active {
+    background: rgb(73, 73, 73);
+    border: 3px solid rgb(73, 73, 73);
+    color: white;
+}

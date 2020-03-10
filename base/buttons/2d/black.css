@@ -1,0 +1,24 @@
+.cssStuff .Container .Button-Black {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6 16;
+    border-radius: 4.20px;
+    transition: all 0.15s, padding 0s, font-size 0s, font-weight 0s, margin 0s;
+    cursor: pointer;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+}
+
+.cssStuff .Container .Button-Black:hover {
+    background-color: rgb(48, 48, 48);
+    border: 3px solid rgb(48, 48, 48);
+    color: white;
+}
+
+.cssStuff .Container .Button-Black:active {
+    background: rgb(73, 73, 73);
+    border: 3px solid rgb(73, 73, 73);
+    color: white;
+}

@@ -2,7 +2,6 @@
     color: #d00000;
     background-color: transparent;
     border: 3px solid #d00000;
-    transition: background-color 0.4s, border 0.4s;
 }
 
 .cssStuff .Container .Button-Red-Inverted:hover {

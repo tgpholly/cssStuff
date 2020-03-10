@@ -1,0 +1,15 @@
+.cssStuff .Container .Button-Lime {
+    background-color: #60cc2d;
+    color: white;
+    border: 3px solid #60cc2d;
+}
+
+.cssStuff .Container .Button-Lime:hover {
+    background-color: #4fa327;
+    border: 3px solid #4fa327;
+}
+
+.cssStuff .Container .Button-Lime:active {
+    background: #3f8120;
+    border: 3px solid #3f8120;
+}

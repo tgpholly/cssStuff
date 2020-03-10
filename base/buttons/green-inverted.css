@@ -1,0 +1,17 @@
+.cssStuff .Container .Button-Green-Inverted {
+    color: #44961f;
+    background-color: transparent;
+    border: 3px solid #44961f;
+}
+
+.cssStuff .Container .Button-Green-Inverted:hover {
+    background-color: #44961f;
+    border: 3px solid #44961f;
+    color: white;
+}
+
+.cssStuff .Container .Button-Green-Inverted:active {
+    background: #306816;
+    border: 3px solid #306816;
+    color: white;
+}

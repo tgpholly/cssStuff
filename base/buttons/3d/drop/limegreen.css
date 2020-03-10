@@ -1,17 +1,18 @@
-.cssStuff .Container .Button3D-Lime {
+.cssStuff .Container .Button3D-PartialDrop-Lime {
     background-color: #60cc2d;
     color: white;
     border: 3px solid #60cc2d;
     box-shadow: 0 5px #4ca124;
 }
 
-.cssStuff .Container .Button3D-Lime:hover {
+.cssStuff .Container .Button3D-PartialDrop-Lime:hover {
     background-color: #4fa327;
     border: 3px solid #4fa327;
-    box-shadow: 0 5px #3c7c1e
+    box-shadow: 0 4px #3c7c1e;
+    transform: translateY(1px);
 }
 
-.cssStuff .Container .Button3D-Lime:active {
+.cssStuff .Container .Button3D-PartialDrop-Lime:active {
     background: #3f8120;
     border: 3px solid #3f8120;
     box-shadow: 0 1px #285214;

@@ -1,0 +1,33 @@
+.cssStuff .Container .Button3D-PartialDrop {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6 16;
+    border-radius: 4.20px;
+    transition: all 0.15s, padding 0s, font-size 0s, font-weight 0s, margin 0s;
+    cursor: pointer;
+    margin-bottom: 8px;
+    background-color: rgb(204, 204, 204);
+    color: black;
+    border: 3px solid rgb(204, 204, 204);
+    box-shadow: 0 5px rgb(121, 121, 121);
+}
+
+.cssStuff .Container .Button3D-PartialDrop:hover {
+    background-color: rgb(153, 153, 153);
+    border: 3px solid rgb(153, 153, 153);
+    box-shadow: 0 3px rgb(116, 116, 116);
+    transform: translateY(2px);
+    color: white;
+}
+
+.cssStuff .Container .Button3D-PartialDrop:active {
+    background: rgb(119, 119, 119);
+    border: 3px solid rgb(119, 119, 119);
+    color: white;
+    box-shadow: 0 1px rgb(87, 87, 87);
+    transform: translateY(4px);
+}
+
+.cssStuff .Container .Button3D-PartialDrop:focus {
+    outline: none;
+}

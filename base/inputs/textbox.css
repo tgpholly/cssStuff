@@ -1,0 +1,20 @@
+.cssStuff .Container .TextBox {
+    transition: all 0.15s, padding 0s, font-size 0s, font-weight 0s, margin 0s;
+    padding: 6 16;
+    background-color: rgb(204, 204, 204);
+    border: 3px solid rgb(204, 204, 204);
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-radius: 4.20px;
+}
+
+.cssStuff .Container .TextBox:focus {
+    outline: none;
+    background: rgb(119, 119, 119);
+    border: 3px solid rgb(119, 119, 119);
+    color: white;
+}
+
+.cssStuff .Container .TextBox-Bold {
+    font-weight: bold;
+}

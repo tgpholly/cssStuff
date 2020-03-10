@@ -3,7 +3,7 @@
     font-size: 14px;
     padding: 6 16;
     border-radius: 4.20px;
-    transition: all 0.15s;
+    transition: all 0.15s, padding 0s, font-size 0s, font-weight 0s, margin 0s;
     cursor: pointer;
     margin-bottom: 8px;
     background-color: rgb(204, 204, 204);

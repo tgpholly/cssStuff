@@ -1,0 +1,19 @@
+.cssStuff .Container .Button3D-LightBlue {
+    background-color: #257de2;
+    color: white;
+    border: 3px solid #257de2;
+    box-shadow: 0 5px #1f6abe;
+}
+
+.cssStuff .Container .Button3D-LightBlue:hover {
+    background-color: #1e62b1;
+    border: 3px solid #1e62b1;
+    box-shadow: 0 5px #184d8a;
+}
+
+.cssStuff .Container .Button3D-LightBlue:active {
+    background: #134986;
+    border: 3px solid #134986;
+    box-shadow: 0 1px #0e345f;
+    transform: translateY(4px);
+}

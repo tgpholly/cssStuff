@@ -1,0 +1,17 @@
+.cssStuff .Container .Button-Teal-Inverted {
+    color: #00a0a0;
+    background-color: transparent;
+    border: 3px solid #00a0a0;
+}
+
+.cssStuff .Container .Button-Teal-Inverted:hover {
+    background-color: #00a0a0;
+    border: 3px solid #00a0a0;
+    color: white;
+}
+
+.cssStuff .Container .Button-Teal-Inverted:active {
+    background: #006666;
+    border: 3px solid #006666;
+    color: white;
+}

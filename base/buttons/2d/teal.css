@@ -1,0 +1,15 @@
+.cssStuff .Container .Button-Teal {
+    background-color: #00a0a0;
+    color: white;
+    border: 3px solid #00a0a0;
+}
+
+.cssStuff .Container .Button-Teal:hover {
+    background-color: #008080;
+    border: 3px solid #008080;
+}
+
+.cssStuff .Container .Button-Teal:active {
+    background: #006666;
+    border: 3px solid #006666;
+}

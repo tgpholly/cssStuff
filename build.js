@@ -50,5 +50,8 @@ function minifyText(s)
 {
     return s
            .split("\n").join("")  // split join is pretty bad tbh
-           .split("\t").join("");
+           .split("\t").join("")
+           .split(" {").join("{")
+           .split("    ").join(" ")
+           .split(": ").join(":")
 }

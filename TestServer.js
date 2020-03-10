@@ -4,9 +4,8 @@ const fs = require('fs');
 
 function handleRequest(req, res)
 {
-    const exec = require('child_process').exec;
-    exec("node build", function(error, stdout, stderr) {
-        console.log(stdout)
+    require('child_process').exec("node build", function(error, stdout, stderr) {
+        console.log(stdout.split("\n")[stdout.split("\n").length-2]);
         return res.end(fs.readFileSync("./compiled.css"));
     });
 }

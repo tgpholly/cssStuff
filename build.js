@@ -1,4 +1,4 @@
-const fs = require("fs"), startTime = new Date().getTime();
+const fs = require("fs"), startTime = new Date().getTime(); let fileCount = 0;
 
 fs.readdir(__dirname + "/base/", (err, files) =>
 {
@@ -14,6 +14,7 @@ fs.readdir(__dirname + "/base/", (err, files) =>
         {
             console.log(`Found css file "${files[i]}"`);
             textToMinify += fs.readFileSync(__dirname + "/base/" + files[i]).toString() + "\n";
+            fileCount++;
         }
     }
     for (let i = 0; i < fileArray.length; i++)
@@ -21,7 +22,7 @@ fs.readdir(__dirname + "/base/", (err, files) =>
         textToMinify += grabDataFromDirectory(__dirname + "/base/" + fileArray[i] + "/");
     }
     fs.writeFileSync(__dirname + "/compiled.css", minifyText(textToMinify));
-    console.log(`Finished! Took ${new Date().getTime() - startTime}ms. Output result to "compiled.css"`);
+    console.log(`Finished! Took ${new Date().getTime() - startTime}ms. Output result to "compiled.css" from ${fileCount} file(s)`);
 });
 
 function grabDataFromDirectory(s)
@@ -39,6 +40,7 @@ function grabDataFromDirectory(s)
             console.log(`Found css file "${a[i]}"`);
             ttr += fs.readFileSync(s + a[i]).toString() + "\n";
         }
+        fileCount++;
     }
     return ttr;
 }

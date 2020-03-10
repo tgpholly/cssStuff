@@ -1,0 +1,20 @@
+.cssStuff .Container .Button3D-PartialDrop-Green {
+    background-color: #44961f;
+    color: white;
+    border: 3px solid #44961f;
+    box-shadow: 0 5px #387919;
+}
+
+.cssStuff .Container .Button3D-PartialDrop-Green:hover {
+    background-color: rgb(55, 126, 23);
+    border: 3px solid rgb(55, 126, 23);
+    box-shadow: 0 4px rgb(43, 97, 18);
+    transform: translateY(1px);
+}
+
+.cssStuff .Container .Button3D-PartialDrop-Green:active {
+    background: #306816;
+    border: 3px solid #306816;
+    box-shadow: 0 1px #234d10;
+    transform: translateY(4px);
+}

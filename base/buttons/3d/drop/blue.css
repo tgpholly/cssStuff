@@ -1,0 +1,20 @@
+.cssStuff .Container .Button3D-PartialDrop-Blue {
+    background-color: #2f2fdb;
+    color: white;
+    border: 3px solid #2f2fdb;
+    box-shadow: 0 5px #2323a0;
+}
+
+.cssStuff .Container .Button3D-PartialDrop-Blue:hover {
+    background-color: #2121a8;
+    border: 3px solid #2121a8;
+    box-shadow: 0 4px rgb(19, 19, 90);
+    transform: translateY(1px);
+}
+
+.cssStuff .Container .Button3D-PartialDrop-Blue:active {
+    background: #0f0f80;
+    border: 3px solid #0f0f80;
+    box-shadow: 0 1px rgb(24, 24, 112);
+    transform: translateY(4px);
+}

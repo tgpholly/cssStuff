@@ -1,0 +1,15 @@
+.cssStuff .Container .Button-Pink {
+    background-color: #FF176D;
+    color: white;
+    border: 3px solid #FF176D;
+}
+
+.cssStuff .Container .Button-Pink:hover {
+    background-color: rgb(228, 21, 97);
+    border: 3px solid rgb(228, 21, 97);
+}
+
+.cssStuff .Container .Button-Pink:active {
+    background: rgb(197, 18, 84);
+    border: 3px solid rgb(197, 18, 84);
+}

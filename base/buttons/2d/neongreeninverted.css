@@ -1,0 +1,17 @@
+.cssStuff .Container .Button-NeonGreen-Inverted {
+    color: #09DB30;
+    background-color: transparent;
+    border: 3px solid #09DB30;
+}
+
+.cssStuff .Container .Button-NeonGreen-Inverted:hover {
+    background-color: #09DB30;
+    border: 3px solid #09DB30;
+    color: white;
+}
+
+.cssStuff .Container .Button-NeonGreen-Inverted:active {
+    background: rgb(8, 160, 35);
+    border: 3px solid rgb(8, 160, 35);
+    color: white;
+}

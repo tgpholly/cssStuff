@@ -1,0 +1,17 @@
+.cssStuff .Container .Button-Pink-Inverted {
+    color: #FF176D;
+    background-color: transparent;
+    border: 3px solid #FF176D;
+}
+
+.cssStuff .Container .Button-Pink-Inverted:hover {
+    background-color: #FF176D;
+    border: 3px solid #FF176D;
+    color: white;
+}
+
+.cssStuff .Container .Button-Pink-Inverted:active {
+    background: rgb(197, 18, 84);
+    border: 3px solid rgb(197, 18, 84);
+    color: white;
+}

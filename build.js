@@ -1,4 +1,5 @@
-const fs = require("fs"), startTime = new Date().getTime(); let fileCount = 0;
+const fs = require("fs"), startTime = new Date().getTime();
+let fileCount = 0;
 
 fs.readdir(__dirname + "/base/", (err, files) =>
 {
@@ -10,6 +11,9 @@ fs.readdir(__dirname + "/base/", (err, files) =>
         {
             console.log(`Found Directory "${files[i]}"`);
             fileArray.push(files[i]);
+        } else if (files[i].includes(".") && !files[i].includes(".css"))
+        {
+            console.log(`Found File thats not a css file "${a[i]}"`);
         } else
         {
             console.log(`Found css file "${files[i]}"`);
@@ -31,10 +35,13 @@ function grabDataFromDirectory(s)
     let ttr = "";
     for (let i = 0; i < a.length; i++)
     {
-        if (!a[i].includes(".css"))
+        if (!a[i].includes(".css") && !a[i].includes("."))
         {
             console.log(`Found Directory "${a[i]}"`);
             ttr += grabDataFromDirectory(s + a[i] + "/");
+        } else if (a[i].includes(".") && !a[i].includes(".css"))
+        {
+            console.log(`Found File thats not a css file "${a[i]}"`);
         } else
         {
             console.log(`Found css file "${a[i]}"`);
@@ -52,6 +59,6 @@ function minifyText(s)
            .split("\n").join("")  // split join is pretty bad tbh
            .split("\t").join("")
            .split(" {").join("{")
-           .split("    ").join(" ")
+           .split("    ").join("")
            .split(": ").join(":")
 }

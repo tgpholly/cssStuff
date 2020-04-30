@@ -8,3 +8,9 @@
     list-style-type: none;
     overflow: hidden;
 }
+
+.cssStuff .Header .Bar .Right {
+    position: absolute;
+    float: right;
+    right: 0;
+}

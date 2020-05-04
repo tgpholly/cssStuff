@@ -1,0 +1,25 @@
+.cssStuff .Header .TextBox3D {
+    position: relative;
+    transition: all 0.15s, padding 0s, font-size 0s, font-weight 0s, margin 0s;
+    padding: 6 16;
+    background-color: rgb(204, 204, 204);
+    border: 3px solid rgb(204, 204, 204);
+    font-size: 14px;
+    margin-bottom: 8px;
+    border-radius: 4.20px;
+    box-shadow: 0 5px rgb(121, 121, 121);
+    top: 2px;
+}
+
+.cssStuff .Header .TextBox3D:focus {
+    outline: none;
+    background: rgb(119, 119, 119);
+    border: 3px solid rgb(119, 119, 119);
+    color: white;
+    box-shadow: 0 1px rgb(87, 87, 87);
+    transform: translateY(4px);
+}
+
+.cssStuff .Header .TextBox3D:focus::placeholder {
+    color: rgb(119, 119, 119);
+}

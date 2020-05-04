@@ -1,0 +1,17 @@
+.cssStuff .Container .Button-Lilac-Inverted {
+    background-color: transparent;
+    color: #c8a2c8;
+    border: 3px solid #c8a2c8;
+}
+
+.cssStuff .Container .Button-Lilac-Inverted:hover {
+    background-color: #c8a2c8;
+    color: white;
+    border: 3px solid #c8a2c8;
+}
+
+.cssStuff .Container .Button-Lilac-Inverted:active {
+    background-color: #8a4d8a;
+    color: white;
+    border: 3px solid #8a4d8a;
+}

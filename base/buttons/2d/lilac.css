@@ -1,0 +1,15 @@
+.cssStuff .Container .Button-Lilac {
+    background-color: #c8a2c8;
+    color: white;
+    border: 3px solid #c8a2c8;
+}
+
+.cssStuff .Container .Button-Lilac:hover {
+    background-color: #b67bb6;
+    border: 3px solid #b67bb6;
+}
+
+.cssStuff .Container .Button-Lilac:active {
+    background: #8a4d8a;
+    border: 3px solid #8a4d8a;
+}

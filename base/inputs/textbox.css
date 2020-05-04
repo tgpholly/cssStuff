@@ -18,3 +18,7 @@
 .cssStuff .Container .TextBox-Bold {
     font-weight: bold;
 }
+
+.cssStuff .Container .TextBox:focus::placeholder {
+    color: rgb(119, 119, 119);
+}

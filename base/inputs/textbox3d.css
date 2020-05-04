@@ -17,3 +17,7 @@
     box-shadow: 0 1px rgb(87, 87, 87);
     transform: translateY(4px);
 }
+
+.cssStuff .Container .TextBox3D:focus::placeholder {
+    color: rgb(119, 119, 119);
+}

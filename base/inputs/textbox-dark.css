@@ -9,3 +9,7 @@
     border: 3px solid #0c0c0c!important;
     color: white;
 }
+
+.cssStuff .Container .TextBox-Dark:focus::placeholder {
+    color: #0c0c0c;
+}

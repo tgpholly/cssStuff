@@ -10,3 +10,7 @@
     color: white;
     box-shadow: 0 1px rgb(8, 8, 8)!important;
 }
+
+.cssStuff .Container .TextBox3D-Dark:focus::placeholder {
+    color: #0c0c0c;
+}

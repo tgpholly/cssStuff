@@ -20,6 +20,6 @@ function handleRequest(req, res) {
         break;
 
         default:
-            return res.end("404 | Not good.");
+            return res.end("404 | Not found");
     }
 }

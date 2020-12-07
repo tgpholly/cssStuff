@@ -5,7 +5,7 @@ const fs = require('fs'),
 require('http').createServer((req, res) => handleRequest(req, res)).listen(7272, () => console.log("Dev server listening"));
 
 function handleRequest(req, res) {
-    switch (mURS(req.url)) {
+    switch (req.url.split("?")[0]) {
         case "/":
             return fs.readFile("./testPage/index.html", (e, b) => { if (e) throw e; else res.end(b); });
 
@@ -22,9 +22,4 @@ function handleRequest(req, res) {
         default:
             return res.end("404 | Not good.");
     }
-}
-
-// Make url nice for the switchy witchy statement
-function mURS(url) {
-    return url.split("?")[0];
 }

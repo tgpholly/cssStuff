@@ -17,7 +17,7 @@ Requirements for the compiler is any version of [NodeJS](https://nodejs.org).
 ### Setup process:
 Clone the repository
  And Either
- - Run compile.js
+ - Run build.js
 
 OR
 

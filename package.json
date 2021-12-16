@@ -1,0 +1,24 @@
+{
+	"name": "cssstuff",
+	"version": "1.0.0",
+	"description": "A css framework for my stuff",
+	"main": "build.js",
+	"scripts": {
+		"test": "node TestServer.js",
+		"compile": "node build.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tgpethan/cssStuff.git"
+	},
+	"keywords": [],
+	"author": "tgpethan",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tgpethan/cssStuff/issues"
+	},
+	"homepage": "https://github.com/tgpethan/cssStuff#readme",
+	"dependencies": {
+		"clean-css": "^5.2.2"
+	}
+}

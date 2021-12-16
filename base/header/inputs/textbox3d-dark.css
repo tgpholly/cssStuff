@@ -2,15 +2,15 @@
     background-color: #333333!important;
     border: 3px solid #333333!important;
     box-shadow: 0 5px rgb(32, 32, 32)!important;
+    color: white;
 }
 
 .cssStuff .Header .TextBox3D-Dark:focus {
-    background-color: #0f0f0f!important;
+    background: #0f0f0f!important;
     border: 3px solid #0f0f0f!important;
-    color: white;
     box-shadow: 0 1px rgb(8, 8, 8)!important;
 }
 
 .cssStuff .Header .TextBox3D-Dark:focus::placeholder {
-    color: #0c0c0c;
+    color: #0f0f0f!important;
 }

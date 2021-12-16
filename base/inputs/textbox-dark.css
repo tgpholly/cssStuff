@@ -1,15 +1,15 @@
 .cssStuff .Container .TextBox-Dark {
     background-color: #333333!important;
     border: 3px solid #333333!important;
+    color: white;
 }
 
 .cssStuff .Container .TextBox-Dark:focus {
     outline: none;
-    background-color: #0c0c0c!important;
+    background: #0c0c0c!important;
     border: 3px solid #0c0c0c!important;
-    color: white;
 }
 
 .cssStuff .Container .TextBox-Dark:focus::placeholder {
-    color: #0c0c0c;
+    color: #0c0c0c!important;
 }

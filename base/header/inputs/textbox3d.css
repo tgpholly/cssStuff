@@ -9,6 +9,7 @@
     border-radius: 4.20px;
     box-shadow: 0 5px rgb(121, 121, 121);
     top: 2px;
+    transform: translateY(-5px);
 }
 
 .cssStuff .Header .TextBox3D:focus {
@@ -17,7 +18,7 @@
     border: 3px solid rgb(119, 119, 119);
     color: white;
     box-shadow: 0 1px rgb(87, 87, 87);
-    transform: translateY(4px);
+    transform: translateY(-1px);
 }
 
 .cssStuff .Header .TextBox3D:focus::placeholder {

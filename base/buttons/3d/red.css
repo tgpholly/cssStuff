@@ -1,19 +1,18 @@
 .cssStuff .Container .Button3D-Red {
-    background-color: #d00000;
-    color: white;
-    border: 3px solid #d00000;
-    box-shadow: 0 5px #8b0000;
+	background-color: #d00000;
+	color: white;
+	border: 3px solid #d00000;
+	box-shadow: 0 5px #8b0000;
 }
 
 .cssStuff .Container .Button3D-Red:hover {
-    background-color: #a81818;
-    border: 3px solid #a81818;
-    box-shadow: 0 5px #6e1010
+	background-color: #a81818;
+	border: 3px solid #a81818;
+	box-shadow: 0 5px #6e1010
 }
 
 .cssStuff .Container .Button3D-Red:active {
-    background: #910000;
-    border: 3px solid #910000;
-    box-shadow: 0 1px #500000;
-    transform: translateY(4px);
+	background: #910000;
+	border: 3px solid #910000;
+	box-shadow: 0 1px #500000;
 }

@@ -1,19 +1,18 @@
 .cssStuff .Container .Button3D-Pink {
-    background-color: #FF176D;
-    color: white;
-    border: 3px solid #FF176D;
-    box-shadow: 0 5px rgb(196, 18, 83);
+	background-color: #FF176D;
+	color: white;
+	border: 3px solid #FF176D;
+	box-shadow: 0 5px rgb(196, 18, 83);
 }
 
 .cssStuff .Container .Button3D-Pink:hover {
-    background-color: rgb(218, 21, 93);
-    border: 3px solid rgb(218, 21, 93);
-    box-shadow: 0 5px rgb(158, 15, 67)
+	background-color: rgb(218, 21, 93);
+	border: 3px solid rgb(218, 21, 93);
+	box-shadow: 0 5px rgb(158, 15, 67)
 }
 
 .cssStuff .Container .Button3D-Pink:active {
-    background: rgb(187, 18, 80);
-    border: 3px solid rgb(187, 18, 80);
-    box-shadow: 0 1px rgb(114, 10, 48);
-    transform: translateY(4px);
+	background: rgb(187, 18, 80);
+	border: 3px solid rgb(187, 18, 80);
+	box-shadow: 0 1px rgb(114, 10, 48);
 }

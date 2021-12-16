@@ -1,19 +1,18 @@
 .cssStuff .Container .Button3D-NeonGreen {
-    background-color: #09DB30;
-    color: white;
-    border: 3px solid #09DB30;
-    box-shadow: 0 5px rgb(8, 179, 39);
+	background-color: #09DB30;
+	color: white;
+	border: 3px solid #09DB30;
+	box-shadow: 0 5px rgb(8, 179, 39);
 }
 
 .cssStuff .Container .Button3D-NeonGreen:hover {
-    background-color: rgb(9, 190, 42);
-    border: 3px solid rgb(9, 190, 42);
-    box-shadow: 0 5px rgb(7, 143, 32)
+	background-color: rgb(9, 190, 42);
+	border: 3px solid rgb(9, 190, 42);
+	box-shadow: 0 5px rgb(7, 143, 32)
 }
 
 .cssStuff .Container .Button3D-NeonGreen:active {
-    background: rgb(7, 158, 35);
-    border: 3px solid rgb(7, 158, 35);
-    box-shadow: 0 1px rgb(5, 110, 25);
-    transform: translateY(4px);
+	background: rgb(7, 158, 35);
+	border: 3px solid rgb(7, 158, 35);
+	box-shadow: 0 1px rgb(5, 110, 25);
 }

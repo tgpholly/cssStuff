@@ -1,20 +1,25 @@
 .cssStuff .Header .Button {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+	float: left;
+	display: flex;
+	color: white;
+	text-align: center;
+	padding: 0px 16px;
+	align-items: center;
+	height: 100%;
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+	-ms-user-select: none;
 }
 
 .cssStuff .Header .Button:hover {
-    background: rgb(58, 58, 58);
+	background: rgb(58, 58, 58);
 }
 
 .cssStuff .Header .Selected {
-    background: rgb(48, 48, 48);
+	background: rgb(48, 48, 48);
 }
 
 .cssStuff .Header .Selected:hover {
-    background: rgb(48, 48, 48);
+	background: rgb(48, 48, 48);
 }

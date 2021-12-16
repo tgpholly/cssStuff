@@ -1,19 +1,18 @@
 .cssStuff .Container .Button3D-Lilac {
-    background-color: #c8a2c8;
-    color: white;
-    border: 3px solid #c8a2c8;
-    box-shadow: 0 5px #a175a1;
+	background-color: #c8a2c8;
+	color: white;
+	border: 3px solid #c8a2c8;
+	box-shadow: 0 5px #a175a1;
 }
 
 .cssStuff .Container .Button3D-Lilac:hover {
-    background-color: #b67bb6;
-    border: 3px solid #b67bb6;
-    box-shadow: 0 5px #885288
+	background-color: #b67bb6;
+	border: 3px solid #b67bb6;
+	box-shadow: 0 5px #885288
 }
 
 .cssStuff .Container .Button3D-Lilac:active {
-    background: #8a4d8a;
-    border: 3px solid #8a4d8a;
-    box-shadow: 0 1px #693969;
-    transform: translateY(4px);
+	background: #8a4d8a;
+	border: 3px solid #8a4d8a;
+	box-shadow: 0 1px #693969;
 }

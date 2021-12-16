@@ -20,13 +20,11 @@
 .cssStuff .Container .Button:hover {
     background-color: rgb(153, 153, 153);
     border: 3px solid rgb(153, 153, 153);
-    color: white;
 }
 
 .cssStuff .Container .Button:active {
     background: rgb(119, 119, 119);
     border: 3px solid rgb(119, 119, 119);
-    color: white;
 }
 
 .cssStuff .Container .Button:focus {

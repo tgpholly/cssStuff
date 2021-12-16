@@ -1,20 +1,18 @@
 .cssStuff .Container .Button3D-PartialDrop-Teal {
-    background-color: #00a0a0;
-    color: white;
-    border: 3px solid #00a0a0;
-    box-shadow: 0 5px #007474;
+	background-color: #00a0a0;
+	color: white;
+	border: 3px solid #00a0a0;
+	box-shadow: 0 5px #007474;
 }
 
 .cssStuff .Container .Button3D-PartialDrop-Teal:hover {
-    background-color: #008080;
-    border: 3px solid #008080;
-    box-shadow: 0 4px #005353;
-    transform: translateY(1px);
+	background-color: #008080;
+	border: 3px solid #008080;
+	box-shadow: 0 4px #005353;
 }
 
 .cssStuff .Container .Button3D-PartialDrop-Teal:active {
-    background: #006666;
-    border: 3px solid #006666;
-    box-shadow: 0 1px #004747;
-    transform: translateY(4px);
+	background: #006666;
+	border: 3px solid #006666;
+	box-shadow: 0 1px #004747;
 }

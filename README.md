@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="150" height="150" src="https://eusv.ml/images/cssStuffLossless.webp">
+  <img width="150" height="150" src="https://eusv.net/images/cssStuffLossless.webp">
 </p>
 <p align="center">
   A css framework for my stuff.
